@@ -16,10 +16,10 @@ Komponen Utama
 
 ## Cara Kerja
 
-    Inisialisasi: Ketika alat diaktifkan, ESP32 akan menginisialisasi modul Wi-Fi dan sensor RFID-RC522.
-    Pembacaan RFID: Saat kartu/tag RFID didekatkan ke sensor RFID-RC522, data unik dari kartu tersebut dibaca oleh sensor.
-    Pengiriman Data: Data yang telah dibaca oleh sensor kemudian dikirimkan ke server web melalui API yang telah dikonfigurasi.
-    Pencatatan Absensi: Server web memproses data yang diterima dan menyimpannya dalam database untuk keperluan pencatatan dan laporan absensi.
+- Inisialisasi: Ketika alat diaktifkan, ESP32 akan menginisialisasi modul Wi-Fi dan sensor RFID-RC522.
+- Pembacaan RFID: Saat kartu/tag RFID didekatkan ke sensor RFID-RC522, data unik dari kartu tersebut dibaca oleh sensor.
+- Pengiriman Data: Data yang telah dibaca oleh sensor kemudian dikirimkan ke server web melalui API yang telah dikonfigurasi.
+- Pencatatan Absensi: Server web memproses data yang diterima dan menyimpannya dalam database untuk keperluan pencatatan dan laporan absensi.
 
 ## Skema Alat
 
